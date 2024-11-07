@@ -24,7 +24,7 @@ a {
 text-decoration: none;
 color: currentColor;
 }
-.img {
+img {
     display: block;
     max-width: 100%;
 }
@@ -167,7 +167,8 @@ header {
     padding: 120px 0;
 }
 .visually-hidden {
-    display: none
+    display: none;
+    overflow: hidden;
 }
 .advantages-ul {
     display: flex;
