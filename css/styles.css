@@ -211,6 +211,7 @@ header {
     align-items: center;
     margin: 32px auto 120px auto;
     gap: 24px;
+    flex-wrap: wrap;
 }
 .team .team-img {
     background-color: #FFFFFF;
@@ -240,6 +241,9 @@ header {
 .team-div {
         padding: 32px 0;
 }
+.portfolio-section {
+    padding: 120px 0 120px 0;
+}
 .portfolio {
     font-size: 36px;
     line-height: 1.11;
@@ -256,11 +260,16 @@ header {
     align-items: center;
     margin: 32px auto 120px auto;
     gap: 24px;
+    flex-wrap: wrap;
 }
 .portfolio-li {
     background-color: #FFFFFF;
     width: calc((100% - 48px) / 3);
     display: block;
+}
+.portfolio-div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 .portfolio-name {
 font-weight: 500;
