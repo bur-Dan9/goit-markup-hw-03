@@ -142,7 +142,7 @@ header {
     margin-bottom: 48px;
     display: block;
     max-width: 496px;
-    align-items: center;
+    text-align: center;
 }
 .first .first-btn {
     background-color: #4D5AE5;
@@ -181,7 +181,7 @@ header {
 .advantages-ul {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 24psx;
 }
 .advantages-list {
     width: calc((100% - 72px) / 4);
