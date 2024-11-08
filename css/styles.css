@@ -185,7 +185,6 @@ header {
 }
 .advantages-list {
     width: calc((100% - 72px) / 4);
-    margin: 120px auto;
 }
 .advantages {
     font-weight: 500;
