@@ -139,9 +139,10 @@ header {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin: 188px auto 48px auto;
+    margin-bottom: 48px;
     display: block;
     max-width: 496px;
+    align-items: center;
 }
 .first .first-btn {
     background-color: #4D5AE5;
@@ -151,7 +152,6 @@ header {
     font-size: 16px;
     letter-spacing: 0.04em;
     cursor: pointer;
-    margin: 48px auto 188px auto;
     border-radius: 4px;
     padding: 16px 32px;
     min-width: 169px;
@@ -217,13 +217,12 @@ header {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin: 120px auto 72px auto;
     display: block;
+    margin-bottom: 72px;
 }
 .team-ul {
     display: flex;
     align-items: center;
-    margin: 32px auto 120px auto;
     gap: 24px;
     flex-wrap: wrap;
 }
@@ -265,14 +264,13 @@ header {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin: 120px auto 72px auto;
+    margin-bottom: 72px;
     display: block;
 }
 
 .portfolio-ul {
     display: flex;
     align-items: center;
-    margin: 32px auto 120px auto;
     gap: 24px;
     row-gap: 48px;
     flex-wrap: wrap;
@@ -293,7 +291,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-text-align: center;
 display: block;
 margin-bottom: 8px;
 }
@@ -305,7 +302,6 @@ margin-bottom: 8px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 400;
-    text-align: center;
 }
 
 .footer {
@@ -314,8 +310,7 @@ margin-bottom: 8px;
     padding: 100px 0
 }
 .logo-footer {
-    padding: 24px 0;
-    margin: 100px auto 16px auto;
+    margin-bottom: 16px;
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -323,7 +318,6 @@ margin-bottom: 8px;
     font-family: 'Roboto', sans-serif;
     color: #F4F4FD;
     width: 264px;
-    margin-bottom: 100px;
 }
 .footer .studiofooter {
     color: #f4f4fd;
